@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #34495E;
+  background-color: #34495e;
 }
 
 .form-wrapper {
@@ -36,7 +36,7 @@ h1 {
 label {
   font-size: 0.8em;
   margin-bottom: 0.25em;
-  color: #222;
+  color: rgb(27, 25, 25);
   font-weight: lighter;
 }
 
@@ -72,21 +72,25 @@ input.error {
 }
 
 .firstName,
-.lastName,
 .email,
-.password {
+.password,
+.repassword {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
 
-.firstName{
+.firstName,
+.repassword {
   width: 100%;
 }
 
 .email,
 .password {
   width: 100%;
+}
+email.errors {
+  color: red;
 }
 
 .createAccount {
@@ -97,7 +101,7 @@ input.error {
 }
 
 .createAccount button {
-  background-color: #85929E;
+  background-color: #85929e;
   color: #fff;
   border: 2px solid #fff;
   width: 100%;
@@ -110,10 +114,14 @@ input.error {
 }
 
 .createAccount button:hover {
-  color: #FFF;
-  background-color: #85929E;
-  border: 2px solid #1B4F72;
+  color: #fff;
+  background-color: #85929e;
+  border: 2px solid #1b4f72;
   border-radius: 10px;
+}
+
+.signin {
+  color: black;
 }
 
 .createAccount small {
