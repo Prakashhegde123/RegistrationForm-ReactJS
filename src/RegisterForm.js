@@ -26,13 +26,6 @@ const RegisterForm = () => {
     setEmail(e.target.value);
   };
 
-  // const updatePassword = (e) => {
-  //   setPassword(e.target.value);
-  // };
-  // const updateRePassword = (e) => {
-  //   setRePassword(e.target.value);
-  // };
-
   function onSubmitForm(data) {
     console.log(data);
     // setUsers((prevForm) => [
