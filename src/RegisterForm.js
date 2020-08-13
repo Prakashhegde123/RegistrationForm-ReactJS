@@ -28,12 +28,7 @@ const RegisterForm = () => {
 
   function onSubmitForm(data) {
     console.log(data);
-    // setUsers((prevForm) => [
-    //   ...prevForm,
-    //   { name: name, email, password, repassword },
-    // ]);
   }
-
   return (
     <div className="wrapper">
       <div className="form-wrapper">
